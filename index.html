@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b67410d2a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav>
+        <!-- NAVIGATION BAR -->
+         <div id="logo-container">
+            <p class="title">P.</p>
+         </div>
+            <a href="#"><img src="/imgs/filter.svg" alt="Filter" class="btn filter"></a>
+            <a href="#"><img src="/imgs/dashboard.svg" alt="Dashboard" class="btn active"></img></a>
+            <a href="#"><img src="/imgs/profile.svg" alt="Profile" class="btn profile"></img></a>
+            <a href="#"><img src="/imgs/statistics.svg" alt="Statistics" class="btn stats"></img></a>
+        </nav>
+        <!-- PROGRESS DASHBOARD -->
+        <section class="content">
+            <h1>Progress Dashboard</h1>
+            <div class="top-container">
+                <div class="unit-container">
+                    <p class="unit-text">DEADLINE <span class="time">12:00</span></p>
+                    <h2>EXAM - UNIT 5</h2>
+                    <p class="unit-text">Spanish for beginners</p>
+                    <div class="unit-div">
+                        <img src="/imgs/profile-imgs.png" alt="profile-images" id="unit-img">
+                        <a href="#">Start testing</a>
+                    </div>
+                </div>
+                <div class="homework todo">
+                    <i class="far fa-check-circle"></i>
+                    <p class="subtitle">Homework</p>
+                    <p class="todoP">For today's lesson</p>
+                </div>
+                <div class="reading todo">
+                    <i class="far fa-check-circle"></i>
+                    <p class="subtitle">Reading</p>
+                    <p class="todoP">25 words per week</p>
+                </div>
+            </div>
+            <section class="middle-container">
+                <div class="group-info-container">
+                    <div class="groupHeader">
+                        <p class="subtitle">Group info<span class="faded"><br>13 students in the Group</span></p>
+                        <i class="far fa-bell"></i>
+                    </div>
+                    <div class="group-homework">
+                        <p class="subtitle">Group homework <br><span class="group-span">5 students from your group online now</span></p>
+                        
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="group-footer">
+                        <p class="subtitle">Today's lesson <br><span class="faded">Unit 6 - Articles</span></p>
+                        <p class="group-time">12:00</p>
+                    </div>
+                </div>
+                <div class="spanish-container">
+                    <img src="/imgs/spain.svg" alt="Spain">
+                    <h2>Spanish for beginners</h2>
+                    <br>
+                    <p>75%</p>
+                    <progress value="75" max="100"></progress>
+                </div>
+            </section>
+            <section class="bottom-section">
+                <div class="grammar-bottom">
+                    <i class="fas fa-pencil-alt icon-circle"></i>
+                    <p class="subtitle">Grammar <br><span class="faded"> + 30 grammar rules</span></p>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="dictionary-bottom">
+                    <i class="fas fa-spell-check icon-circle"></i>
+                    <p class="subtitle">Dictionary <br><span class="faded"> + 10 new words</span></p>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </section>
+        </section>
+        <!-- PROFILE -->
+        <section class="profile-section">
+            <div class="logo-container">
+                <img src="/imgs/logo.jpg" alt="Logo">
+                <h2>Silver Wolf</h2>
+                <p class="faded">Hack, escape & live free!</p>
+            </div>
+            <div class="promo-container">
+                <p class="title promo-p">Get -10% sell price <br><span class="faded">for Spanish A2 courses</span></p>
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <section class="progress">
+                <h2>Courses Progress</h2>
+                <div class="grammar-profile progress-box">
+                    <p class="percent">63%</p>
+                    <i class="fas fa-pencil-alt"></i>
+                    <p class="title">Grammar <br><span class="faded">Learn new rules</span></p>
+                </div>
+                <div class="dictionary-profile progress-box">
+                    <p class="percent">78%</p>
+                    <i class="fas fa-spell-check"></i>
+                    <p class="title">Dictionary <br><span class="faded">Learn new words</span></p>
+                </div>
+                <div class="reading-profile progress-box">
+                    <p class="percent">34%</p>
+                    <i class="fas fa-book-open"></i>
+                    <p class="title">Reading <br><span class="faded">Train your skills</span></p>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
